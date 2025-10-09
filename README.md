@@ -84,7 +84,7 @@ ionic g
 | Comando                  | Descripción                                           | Forma Abreviada |
 |--------------------------|-------------------------------------------------------|-----------------|
 | `npm install`             | Instala las dependencias del proyecto                 | `npm i`         |
-| `ionic serve`             | Inicia el servidor de desarrollo con recarga automática | —               |
+| `ionic serve`             | Inicia el servidor de desarrollo con recarga automática | `ionic s`               |
 | `ionic generate`          | Genera componentes, páginas y servicios               | `ionic g`       |
 | `git clone "url del repo"`| Clona el repositorio a tu máquina local               | —               |
 
