@@ -13,6 +13,9 @@ Asegúrate de tener instalado el siguiente software antes de comenzar:
     ```
     npm install -g @ionic/cli
     ```
+    
+* **Documentación ionic** [Docs Ionic](https://ionicframework.com/).
+
 * **Git:** [Descargar Git](https://git-scm.com/).
 
 ---
