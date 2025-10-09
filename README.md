@@ -93,8 +93,5 @@ ionic g
 
 ---
 
-## Contacto
-
-Para preguntas o sugerencias, abre un issue o contacta al equipo de desarrollo.
 
 
