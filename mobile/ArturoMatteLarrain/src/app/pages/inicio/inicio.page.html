@@ -42,7 +42,7 @@
           @for(a of autos; track a.patente){
           <ion-col>
             <ion-card>
-              <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+              <img alt="" [src]="a.imagen" />
               <ion-card-header>
                 <ion-card-title>{{a.marca}}</ion-card-title>
                 <ion-card-subtitle>{{a.modelo}}</ion-card-subtitle>

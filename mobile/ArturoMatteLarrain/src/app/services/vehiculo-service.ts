@@ -18,6 +18,20 @@ export class VehiculoService {
     return respuesta;
   }
 
+  async agregarVehiculo(bodyAgregar:body){
+    const response = await lastValueFrom(this.http.post<any>(this.apiUrl + "/api/autos",bodyAgregar))
+    return response;
+  }
+
 
   
+}
+
+interface body{
+  marca:string;
+  modelo:string;
+  color:string;
+  imagen:string;
+  patente:string;
+  anio:number;
 }
